@@ -1,0 +1,15 @@
+{
+  "name": "library-sca-test-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intentionally vulnerable dependency manifest for SCA testing only",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "node test/verify_manifests.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.20",
+    "minimist": "1.2.5",
+    "jquery": "3.4.1"
+  }
+}
